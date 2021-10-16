@@ -1,0 +1,85 @@
+h1 {
+  margin: 0;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+
+h2 {
+  margin: 0;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 20px;
+}
+
+a {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  padding: 15px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+.contenedor {
+  position: absolute;
+  display: flex;
+  height: 420px;
+  width: 850px;
+  top: calc(50% - 210px);
+  left: calc(50% - 425px);
+}
+
+.caja:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.caja:nth-child(1) a{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.caja:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.caja:nth-child(2) a{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.caja:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.caja:nth-child(3) a{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.conte {
+  padding: 50px;
+  display: grid;
+  grid-template-rows: 60px 50px 150px 70px;
+  gap: 10px;
+}
